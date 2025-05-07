@@ -1,3 +1,11 @@
+/* 2 */
+.paragraph {
+    color: hotpink;
+    background-color: rgb(225, 202, 202);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 .table {
     border-collapse: collapse;
     width: 100%;

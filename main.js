@@ -6,9 +6,7 @@ mainText.style.backgroundColor = "black"
 
 // 2 [paragraph]
 let par = document.getElementById("par")
-par.style.color = "green"
-par.style.backgroundColor = "lightblue"
-
+par.classList.add("paragraph")
 
 // 3 [img]
 let img = document.getElementsByTagName("img")[0];
@@ -22,9 +20,14 @@ let ul = document.querySelector("#list");
 
 for (let i = 1; i <= 3; i++) {
     let li = document.createElement("li");
-    li.textContent = "hello";
+    li.textContent = "مرحبا";
     ul.appendChild(li);
 }
+
+ul.style.color = "green"
+ul.style.fontSize = "30px"
+ul.style.fontWeight = "700"
+ul.style.border = "2px solid #000";
 
 
 // [5] table
